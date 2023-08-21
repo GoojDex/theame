@@ -1,0 +1,46 @@
+/* ESPECIAL for THEME OPTION PAGE */
+.sneeit-theme-option-left {
+    float: right;
+    width: 350px;
+	overflow-y: auto;
+	padding-bottom: 50px ;
+}
+.sneeit-theme-option-left a {
+    display: block;
+    color: #000a;    
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.sneeit-theme-option-left a.active,
+.sneeit-theme-option-left a:hover {
+    color: #000;
+    background: #00000005
+}
+.sneeit-theme-option-right {
+    margin-right: 350px;
+    padding: 0 50px 0 150px;
+    position: relative;
+    overflow-y: scroll;
+    height: 100%;
+}
+.sneeit-theme-option-settings {
+	padding-bottom: 150px;
+	display: none;
+}
+
+.sneeit-theme-option-searching .sneeit-theme-option-settings .sneeit-control {
+	display: none;	
+}
+
+.sneeit-theme-option-searching .sneeit-theme-option-settings .sneeit-control.active {
+	display: block;	
+}
+
+
+.sneeit-theme-option-settings > h2 {
+    font-weight: 100;
+    font-size: 40px;
+    margin: 0 0 30px 0;
+}
+

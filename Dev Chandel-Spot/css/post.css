@@ -1,0 +1,163 @@
+/* GLOBAL for POST APP */
+/* post app menu */
+.sneeit-post-app-menu {
+	opacity: 1!important;
+	border-bottom: 1px solid rgb(236, 239, 241)!important;
+	height: 60px;
+}
+.sneeit-post-app-menu a {
+    display: inline-block;
+    padding: 15px 0;
+    margin: 0 0 0 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 11px;
+    color: #666;
+    font-weight: 400;
+	position: relative;
+	line-height: 30px;
+}
+.sneeit-post-app-menu a.sneeit-post-app-history-back {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #F57C0077;
+    color: white;
+    text-align: center;
+    width: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    height: 30px;
+    top: 13px;    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;   
+}
+.sneeit-post-app-menu a i.m-ico {
+    top: 1.3px;
+    position: relative;
+}
+.sneeit-post-app-menu a.active, .sneeit-post-app-menu a:hover {
+    border-bottom: 1px solid #0009;
+    color: black;
+}
+a.sneeit-logo {
+    position: absolute;
+    right: 16px;
+    top: 22px;
+    opacity: .8;
+    padding: 0;
+    margin: 0;
+}
+a.sneeit-logo:hover {
+    border: none;
+    opacity: 1;
+}
+a.sneeit-spot-post-editor-link {
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 999;
+}
+.sneeit-post-workspace-header {
+    min-height: 88px;
+}
+a.sneeit-post-permalink-tag {
+    position: absolute;
+    bottom: -26px;
+    z-index: 999;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+
+/* post app toolbars */
+.sneeit-post-app-toolbar {
+	display: none;	
+    width: 100%;
+    position: relative;
+    left: 40px;
+    top: 24px;
+    height: 40px;
+    line-height: 40px;
+}
+.sneeit-post-app-toolbar.active {
+	display: block;
+}
+.sneeit-post-app-toolbar h2 {
+    margin: 0;
+    font-size: 25px;
+    position: relative;
+    top: -5px;    
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.sneeit-post-app-toolbar.sneeit-post-app-toolbar-editor {
+    top: auto;
+    left: auto;
+    height: auto;
+    line-height: inherit;
+}
+
+a.sneeit-post-app-btn {
+    display: inline-block;
+    margin: 0 35px 0 0;
+    color: #000;
+    font-size: 40px;
+    line-height: 1em;
+    top: 11px;
+    position: relative;
+    opacity: .8;
+    background: white;
+    height: 1em;
+    border: 1px solid #0002;
+    border-radius: 4px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px #00000020;
+}
+
+a.sneeit-post-app-btn:active {
+	border-color: #f4f4f4;box-shadow:none
+}
+a.sneeit-post-app-btn:hover {    
+    text-shadow: 1px 1px 5px #0002;
+    opacity: 1;
+}
+a.sneeit-post-app-btn span {
+    font-size: 20px;
+    position: relative;
+    margin: 0 0 0 7px;
+    user-select: none;
+    font-weight: 100;
+    top: -12px;
+}
+
+a.sneeit-post-app-btn[class*="color"] {
+    color: yellowgreen;
+}
+a.sneeit-post-app-btn[class*="off"] {
+    color: indianred;
+}
+a.sneeit-post-app-btn:hover {
+    background-color: currentColor;
+}
+a.sneeit-post-app-btn:hover * {
+    color: white;
+}
+/* post app pages */
+.sneeit-post-app-page {
+	display: none;
+}
+.sneeit-post-app-page.active {
+	display: block;
+}
+.sneeit-post-app-page-editor.active {
+    display: flex;
+}
+.sneeit-post-app-page-custom {
+	position: relative;
+	background: #00000005;
+	padding: 50px 50px 0 50px;
+	border-top: 1px solid #e0e0e0;
+}

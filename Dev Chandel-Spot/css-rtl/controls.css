@@ -1,0 +1,209 @@
+/* COMMON INTERFACE */
+.sneeit-control {
+	padding: 30px 0;
+	border-top: 1px solid #ddd;
+	height: auto!important;	
+}
+.sneeit-control[data-show="true"] {	
+	/*display: block;*/	
+	opacity: 1;
+}
+.sneeit-control[data-show="false"] {
+	/*display: none;*/	
+	opacity: .3;
+}
+
+.sneeit-control-info {
+	display: inline-block;
+	width: 35%;
+	vertical-align: top;
+	margin-left: 10%;
+}
+.sneeit-control-input {
+	display: inline-block;
+	width: 55%;
+}
+.sneeit-control-title {
+	font-weight: 900;
+	color: black;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.sneeit-control-description {
+	font-size: 14px;
+	color: #999;
+	margin-top: 10px;
+	line-height: 1.7em;
+}
+.sneeit-control-input {
+	font-size: 14px;
+	font-weight: 100;
+}
+.sneeit-control-input label {
+	position: relative;
+	display: block;
+}
+/************/
+/* CONTROLS */
+.sneeit-control-reset {
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	display: none;
+	line-height: 1em;	
+    margin: 0 .5em 0 0;
+}
+.sneeit-control-reset:hover {
+	text-decoration: underline;
+}
+.sneeit-control:hover .sneeit-control-reset {
+	display: inline;
+	
+}
+.sneeit-control input,
+.sneeit-control select,
+.sneeit-control textarea {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	margin: 0;
+	height: 40px;
+	line-height: 40px;
+	padding: 5px;
+	border: 1px solid #ccc!important;
+	box-shadow: none!important;
+	background-image: none!important;
+	border-radius: 4px;
+	font-family: 'Courier New';
+}
+
+
+/* -- CHECKBOX */
+.sneeit-control input.sneeit-control-checkbox-value {
+    width: 20px;
+    margin: 0 0 0 10px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+	display: inline-block;
+}
+.sneeit-control-checkbox label {
+	cursor: pointer;
+}
+
+/* -- RADIO */
+.sneeit-control-radio label {
+	display: block;
+	margin: 0 0 10px 0;
+}
+.sneeit-control.sneeit-control-radio {
+	padding-bottom: 20px;
+}
+
+/* -- COLOR */
+.sneeit-control input.sneeit-control-color-value {
+    text-transform: uppercase;
+    padding-right: 40px;
+}
+.sneeit-control-color-preview {
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	top: 5px;
+	right: 5px;
+	border-radius: 4px;
+	border: 1px solid #0002;
+	box-shadow: -1px 1px 3px #0002;
+}
+/* -- others */
+.sneeit-control select,
+.sneeit-control .chosen-choices {
+	cursor: pointer;	
+}
+.sneeit-control select.ajax {
+	display: none;
+}
+textarea.sneeit-control-textarea-value {
+	min-height: 150px;
+	line-height: 1.5em;
+	padding: 0 1%;
+}
+.sneeit-control .chosen-container-single .chosen-single {
+	padding: 0 2%!important;
+	height: auto;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	background: #fff;
+	box-shadow: none;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+}
+.sneeit-control .chosen-container-single .chosen-single div b {
+	background-position: 0px 10px;
+}
+.sneeit-control .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+	padding: 0!important;
+	margin: 0!important;
+	font-weight: 100;
+	color: #666;
+	min-width: 150px;
+}
+.sneeit-control .chosen-container-multi .chosen-choices li.search-choice {
+	margin: 10px 0 0 5px!important;
+	display: block;
+}
+
+
+/* FONT PICKER */
+
+.sneeit-control-font-picker {
+    background: white;
+    box-sizing: border-box;
+    border: 1px solid #0002;
+    box-shadow: -1px 1px 5px #0003;
+	display: none;
+}
+.sneeit-control-font-picker .col {
+    width: 33.3%;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px 20px 0 20px;
+}
+
+.sneeit-control-font-picker .font-face-list .select {
+    max-height: 240px;
+    overflow: scroll;
+    border: 1px solid #0003;    
+	position: relative;
+}
+.sneeit-control-font-picker .font-face-list .select .option {
+    display: block;
+    color: black;    
+    padding: 10px;
+	position: relative;
+}
+.sneeit-control-font-picker .font-face-list .select .option:hover {
+    background: #00000005;
+}
+.sneeit-control-font-picker .font-face-list .select .option.active {
+    background: #0000000a;
+}
+
+.sneeit-control-font-picker .col2 label {
+    display: block;
+    margin: 0 0 20px 0;
+}
+.sneeit-control-font-picker .col2 label div {
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+.sneeit-control-font-picker .preview {
+    line-height: 1.7em!important;
+    max-height: 230px;
+    overflow: auto;
+    padding: 0 0 0 20px;
+}

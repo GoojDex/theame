@@ -1,0 +1,9 @@
+.sneeit-theme-app-page-translate {
+    overflow-y: scroll;
+}
+.sneeit-theme-app-page-translate .sneeit-control-input {padding-left: 100px;box-sizing: border-box;}
+.sneeit-theme-app-page-translate .sneeit-control:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+}

@@ -1,0 +1,79 @@
+/* post app */
+/* - post edit link */
+a.sneeit-dashboard-post-edit-link {
+	display: none;
+    padding: 5px 10px 5px 15px;
+    border-radius: 50px;    
+    border: 1px solid #eee
+}
+.sneeit-dasboard-app-post-item:hover a.sneeit-dashboard-post-edit-link {
+	display: inline-block;
+}
+a.sneeit-dashboard-post-edit-link img {
+    margin: 0 14px 0 0;
+    width: 20px;
+    position: relative;
+    top: 2px;
+}
+a.sneeit-dashboard-post-edit-link span {
+    font-size: 10px;
+    font-weight: bold;
+    top: -6px;
+    position: relative;
+    left: -6px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+a.sneeit-dashboard-post-edit-link:hover {
+    background: #eceff1;
+    border-color: #999
+}
+a.sneeit-dashboard-post-edit-link:hover span {
+    color: black;
+}
+/*
+.sneeit-dashboard-app-posts .inner {
+    float: left;
+    box-sizing: border-box;
+    width: 65%;
+    margin-left: 5%;
+}
+.sneeit-dashboard-app-posts .labels {    
+    float: right;
+    width: 20%;
+    margin-top: 88px;
+    margin-right: 5%;
+    border: 1px solid #0003;
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.sneeit-dashboard-app-posts .labels .title {
+    font-size: 10px;    
+    top: -2px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: block;
+    color: #0005;
+}
+.sneeit-dashboard-app-posts .labels .title img {
+    height: 10px;
+    margin: 0 0 0 5px;
+}
+.sneeit-dashboard-app-posts .labels a.label {
+    display: inline-block;
+    border: 1px solid #b0bec5;
+    padding: 6px 12px;
+    border-radius: 100px;
+    margin: 10px 10px 0 0;
+	color: #78909c;
+	font-size: 12px;
+	
+}
+.sneeit-dashboard-app-posts .labels a.label:hover {
+    background: #000;
+    color: white;
+}
+*/
