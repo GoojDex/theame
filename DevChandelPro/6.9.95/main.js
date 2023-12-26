@@ -17,7 +17,7 @@ window['main_js'] = function () {
     // mini jquery
     let _getIndex = 0;
     function _get(url, callback) {
-        let funcName = `_DEV_${_getIndex++}`;
+        let funcName = `_sneeit_${_getIndex++}`;
         window[funcName] = callback;
         
         if (!url.includes('://')) {
