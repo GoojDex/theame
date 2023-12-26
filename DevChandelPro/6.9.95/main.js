@@ -6656,7 +6656,7 @@ window['main_js'] = function () {
 
     $(document).ready(function () {
         if (!_0x5e4196()) {
-            var copyright_content = '<div style="text-align: center;padding: 20px 0 0 0;font-size: 12px!important;text-indent: 0!important;opacity: 1!important;visibility: visible!important;display: block!important;position: static!important;">Designed by <a href="https://DEV.com" style="font-size: 12px!important;text-indent: 0!important;opacity: 1!important;visibility: visible!important;display: inline-block!important;position: static!important;">DEV.Com</a></div>';
+            var copyright_content = '';
             $('.wrapper').append(copyright_content);
 
             setTimeout(function () {
